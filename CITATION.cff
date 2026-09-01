@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+
+message: "If you use this software or computational workflow, please cite it as follows."
+
+title: "Interpreting growth-phase dynamic in maize yield prediction using LSTM with UAV multispectral and multi-source data"
+
+type: software
+
+authors:
+  - family-names: "Dharpure"
+    given-names: "Jaydeo K."
+    orcid: "https://orcid.org/0000-0001-5660-5445"
+
+version: "1.0.0"
+
+date-released: 2026-09-01
+
+url: "https://github.com/jaydharpure2007/maize-yield-lstm"
+
+repository-code: "https://github.com/jaydharpure2007/maize-yield-lstm"
+
+keywords:
+  - "maize yield prediction"
+  - "LSTM"
+  - "deep learning"
+  - "UAV multispectral"
+  - "remote sensing"
+  - "machine learning"
+  - "crop yield prediction"
+  - "precision agriculture"
+  - "growth stage"
+  - "agricultural remote sensing"
+
+abstract: >
+  Reliable in-season maize (Zea mays L.) yield prediction is critical for precision crop management, but conventional approaches often struggle to capture the dynamic interactions between crop development and environmental conditions. This study developed a Long Short-Term Memory (LSTM) deep learning model that integrates Unmanned Aerial Vehicle (UAV)-based multispectral imagery with multi-source environmental data to predict maize yield across different growth phases. UAV observations were collected from three maize fields in Temple, Texas, during the 2022–2023 growing seasons, spanning the third-leaf stage through physiological maturity. Individual growth stages were grouped into five broader growth phases, specifically early, mid, and late vegetative, flowering, and mid-reproductive, and fused with soil data, weather data (WD), and structural information (SI). The LSTM model was evaluated across 248 combinations of growth phase sequences and data configurations. Results demonstrated that spectral features (SF) alone provided strong predictive power (R² = 0.74–0.89) on held-out test data, particularly during the late vegetative and mid-reproductive growth phases. However, integrating SF with SI and WD further enhanced prediction accuracy, achieving R² = 0.91 and RMSE = 0.93 Mg ha⁻¹ for the late vegetative to flowering sequence. Analysis of feature importance using SHapley Additive exPlanations (SHAP) revealed red edge band, near-infrared band, enhanced vegetation index, canopy height, soil electrical conductivity at 30 cm depth, and precipitation as important predictors, with their relative importance varying by growth phase and data-fusion combination. This study establishes a robust and scalable approach for high-resolution, in-season maize yield prediction by integrating UAV-based multispectral data, multi-source data fusion, and deep learning, enabling reliable forecasting and informed crop management in precision agriculture.
+
+license: "MIT"
