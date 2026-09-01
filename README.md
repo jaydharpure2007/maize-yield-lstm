@@ -277,7 +277,7 @@ The repository is organized into modular Python files so that individual compone
 maize-yield-lstm/
 │
 ├── main.py                         # Main entry point
-│
+│── CITATION.cff
 ├── README.md                       # Project documentation
 ├── requirements.txt                # Python dependencies
 ├── .gitignore                      # Git exclusions
