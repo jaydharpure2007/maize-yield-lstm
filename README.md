@@ -411,9 +411,14 @@ The code is structured to facilitate future extensions, including:
 
 ## 15. Citation
 
-If you use this code or methodology in academic research, please cite the associated publication when it becomes available.
+If you use this software or computational workflow in your research,
+please cite:
 
-A DOI and formal citation information will be added to this section following publication.
+Dharpure, J. K. (2026). *Interpreting growth-phase dynamics in maize
+yield prediction using LSTM with UAV multispectral and multi-source
+data* (Version 1.0.0) [Computer software]. Zenodo.
+
+https://doi.org/10.5281/zenodo.XXXXXXXX
 
 ---
 
