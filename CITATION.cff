@@ -19,6 +19,11 @@ url: "https://github.com/jaydharpure2007/maize-yield-lstm"
 
 repository-code: "https://github.com/jaydharpure2007/maize-yield-lstm"
 
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22258066"
+    description: "Archived software release on Zenodo."
+
 keywords:
   - "maize yield prediction"
   - "LSTM"
