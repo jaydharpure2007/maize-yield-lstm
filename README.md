@@ -418,7 +418,7 @@ Dharpure, J. K. (2026). *Interpreting growth-phase dynamics in maize
 yield prediction using LSTM with UAV multispectral and multi-source
 data* (Version 1.0.0) [Computer software]. Zenodo.
 
-https://doi.org/10.5281/zenodo.XXXXXXXX
+https://doi.org/10.5281/zenodo.22258066
 
 ---
 
