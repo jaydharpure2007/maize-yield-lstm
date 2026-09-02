@@ -66,24 +66,6 @@ Independent Test Evaluation
        │
        ▼
 Performance Results
-```
-
-### Workflow steps
-
-1. Load training and testing data from Excel files.
-2. Encode growth-stage information.
-3. Scale model input features using Min-Max normalization.
-4. Construct sequential observations for each sample.
-5. Generate combinations of predefined feature groups.
-6. Remove highly correlated variables.
-7. Evaluate candidate feature sets using cross-validation.
-8. Train LSTM models using the selected feature set.
-9. Optimize LSTM hyperparameters using Optuna.
-10. Train the final model using the selected configuration.
-11. Evaluate the final model using an independent test dataset.
-12. Save model performance, optimized parameters, and prediction results.
-
----
 
 ## 3. Feature Groups
 
@@ -142,10 +124,6 @@ RTVIcore
 VARI
 PSRI
 ```
-
-All possible non-empty combinations of the four feature groups are considered during feature-group evaluation.
-
----
 
 ## 4. LSTM Model
 
@@ -253,22 +231,6 @@ maize-yield-lstm/
 
 Each Excel workbook is expected to contain the sheets required by the modeling workflow, including the training and testing datasets.
 
-### Data availability
-
-The experimental datasets are not currently included in this repository because the associated research is under publication/review.
-
-Following publication, data availability will be considered subject to:
-
-* institutional requirements,
-* project or funding restrictions,
-* data ownership,
-* participant or field-data agreements, where applicable, and
-* journal data-sharing policies.
-
-If the data cannot be publicly released, the repository will continue to provide the complete computational workflow required to reproduce the analysis using an appropriately formatted dataset.
-
----
-
 ## 9. Repository Structure
 
 The repository is organized into modular Python files so that individual components of the workflow can be inspected, reused, and maintained independently.
@@ -277,7 +239,7 @@ The repository is organized into modular Python files so that individual compone
 maize-yield-lstm/
 │
 ├── main.py                         # Main entry point
-│
+│── CITATION.cff
 ├── README.md                       # Project documentation
 ├── requirements.txt                # Python dependencies
 ├── .gitignore                      # Git exclusions
@@ -318,7 +280,7 @@ maize-yield-lstm/
 ### Step 1 — Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/jaydharpure2007/maize-yield-lstm
 cd maize-yield-lstm
 ```
 
