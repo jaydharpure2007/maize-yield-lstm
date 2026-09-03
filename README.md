@@ -79,7 +79,6 @@ Four major groups of predictor variables are considered.
 | **RS** | UAV multispectral and vegetation-index variables | Spectral bands and vegetation indices |
 
 ### Feature groups
-
 #### WD — Weather-Derived Variables
 
 ```text
